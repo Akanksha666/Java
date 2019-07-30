@@ -39,7 +39,7 @@ public class CircleLinkedList<E> {
         size++;
     }
 
-    public E remove(int pos) {
+    public E  remove(int pos) {
         if (pos > size || pos < 0) {
             //catching errors
             throw new IndexOutOfBoundsException("position cannot be greater than size or negative");
